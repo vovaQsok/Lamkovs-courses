@@ -251,7 +251,7 @@ svg * {
 }
 
 body {
-    font-family: var(--font-family-base);
+    font-family: var(--font-family-base), sans-serif;
     font-size: 16px;
     line-height: 1.75;
     color: var(--color-light-gray);
@@ -278,6 +278,19 @@ a:hover {
     max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
     margin-inline: auto;
     padding-inline: var(--container-padding-x);
+}
+
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+    clip-path: inset(100%) !important;
+    clip: rect(0 0 0 0) !important;
+    overflow: hidden !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -361,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-light);
     background-color: transparent;
     border: var(--border);
-    border-radius: var(--border-radius);
+    border-radius: 50%;
 }
 
 .header-burger-button:hover {
@@ -414,4 +427,14 @@ h1, h2, h3, h4, h5, h6 {
     .header-actions {
         column-gap: 15px;
     }
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 36px 70px;
+    min-height: 985px;
+    color: var(--color-light);
+    background-color: var(--color-dark-alternaate);
 }
