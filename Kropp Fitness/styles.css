@@ -231,6 +231,7 @@ svg * {
 
 :root {
     --color-dark: #000000;
+    --color-dark-alternaate: #131619;
     --color-light: #FFFFFF;
     --color-dark-gray: #404040;
     --color-light-gray: #C4C4C4;
@@ -310,6 +311,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     column-gap: 20px;
     padding-inline: 32px;
+    background-color: var(--color-dark-alternaate);
 }
 
 .header-logo{
@@ -338,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-menu-link.is-current::after{
     content: "";
     width: 5px;
-    height: 5px;
+    aspect-ratio: 1;
     background-color: currentColor;
     border-radius: 50%;
 }
@@ -354,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     row-gap: 4px;
     width: 40px;
-    height: 40px;
+    aspect-ratio: 1;
     padding-left: 8px;
     color: var(--color-light);
     background-color: transparent;
