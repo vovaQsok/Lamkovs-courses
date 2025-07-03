@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5fc3ac9-b661-48e4-a5b4-470ed9ba4a0b" name="Changes" comment="second day (banner)" />
+    <list default="true" id="c5fc3ac9-b661-48e4-a5b4-470ed9ba4a0b" name="Changes" comment="3th day (motivation)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +95,8 @@
       <workItem from="1751373759336" duration="9626000" />
       <workItem from="1751452638745" duration="10029000" />
       <workItem from="1751482054428" duration="161000" />
+      <workItem from="1751576585329" duration="300000" />
+      <workItem from="1751577416777" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="first day (preparing and header)">
       <option name="closed" value="true" />
@@ -118,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751386244672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3th day (motivation)">
+      <option name="closed" value="true" />
+      <created>1751576824748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751576824748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first day (preparing and header)" />
-    <option name="LAST_COMMIT_MESSAGE" value="first day (preparing and header)" />
+    <MESSAGE value="3th day (motivation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3th day (motivation)" />
   </component>
 </project>
